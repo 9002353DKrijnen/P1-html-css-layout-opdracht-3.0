@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: "Goldman", cursive;
+  font-family: "Helvetica Neue", cursive;
 }
 
 nav {
@@ -36,4 +36,86 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+#Presentatie
+{
+position: absolute;
+left: 11%;
+bottom: 70%;
+width: 20%;
+font:caption;
+color: blue;
+font-size: x-large;
+}
+#PresentatieParagraaf {
+  position: absolute; 
+  left: 11%; 
+  bottom: 45%; 
+  width: 25%;
+  color: black;
+  font-size: small;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px; 
+}
+
+#Presentatie2
+{
+position: absolute;
+left: 50%;
+bottom: 60%;
+width: 20%;
+font:caption;
+color: blue;
+font-size: x-large;
+}
+
+
+#PresentatieParagraaf2 {
+  position: absolute; 
+  left: 50%; 
+  bottom: 45%; 
+  width: 25%;
+  color: black;
+  font-size: small;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px; 
+
+}
+
+
+#Presentatie3
+{
+position: absolute;
+left: 45%;
+bottom: 25%;
+width: 20%;
+font:caption;
+color: blue;
+font-size: x-large;
+}
+
+
+#PresentatieParagraaf3 {
+  position: absolute; 
+  left: 45%; 
+  bottom: 15%; 
+  width: 25%;
+  color: black;
+  font-size: small;
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
 }
