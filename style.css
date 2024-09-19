@@ -41,7 +41,7 @@ nav img {
 {
 position: absolute;
 left: 11%;
-bottom: 70%;
+bottom: 40%;
 width: 20%;
 font:caption;
 color: blue;
@@ -50,7 +50,7 @@ font-size: x-large;
 #PresentatieParagraaf {
   position: absolute; 
   left: 11%; 
-  bottom: 45%; 
+  bottom: 20%; 
   width: 25%;
   color: black;
   font-size: small;
@@ -108,8 +108,19 @@ font-size: x-large;
   padding: 10px;
   margin-bottom: 20px;
 }
+#Artikel {
+  width: 25%; /* Stel een breedte in voor het artikel */
+  margin: 30px buttom; /* Plaats het artikel gecentreerd op de pagina */
+  font: caption;
+  color: blue;
+}
 
-
+#Artikel img {
+  display: block; /* Zorgt ervoor dat de afbeelding op een nieuwe regel komt */
+  margin: 20px auto; /* Zorgt dat de afbeelding gecentreerd wordt */
+  max-width: 100%; /* Zorgt dat de afbeelding zich aanpast aan de breedte van het artikel */
+  height: auto; /
+}
 footer {
   position: absolute;
   bottom: 0;
@@ -119,3 +130,4 @@ footer {
   text-align: center;
   padding: 1rem;
 }
+
